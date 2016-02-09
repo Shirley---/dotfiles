@@ -105,3 +105,10 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+export AWS_ACCESS_KEY_ID="AKIAIGDDGXCPXUAVV6NA"
+export AWS_SECRET_ACCESS_KEY="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"
+export AWS_SECRET_KEY="OYfHx1Dc0SOr817N3zgp50Rk23NEVZ79YYoeDwyU"
+export HADOOP_HOME=/mnt/hadoop-0.20
+export PATH=$HADOOP_HOME/bin:$PATH
+export QUBOLE_API_TOKEN='UNpQey5KcYoyszXNo1Ze3mAciTiaa1sqThDYY82sUkzzxvMBVt91qedJ6HyqMzSj'
