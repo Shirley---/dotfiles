@@ -112,3 +112,7 @@ export AWS_SECRET_KEY="OYfHx1Dc0SOr817N3zgp50Rk23NEVZ79YYoeDwyU"
 export HADOOP_HOME=/mnt/hadoop-0.20
 export PATH=$HADOOP_HOME/bin:$PATH
 export QUBOLE_API_TOKEN='UNpQey5KcYoyszXNo1Ze3mAciTiaa1sqThDYY82sUkzzxvMBVt91qedJ6HyqMzSj'
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export VIRTUAL_ENV_DISABLE_PROMPT=1 source ~/code/.venv/bin/activate
+export JOBBER_INIT=jobber_workflows.init.JobberWorkflowsInitializer
+
