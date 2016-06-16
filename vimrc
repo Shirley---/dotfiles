@@ -48,7 +48,7 @@ Plugin 'kchmck/vim-coffee-script'
 " Automaticall insert the closing HTML tag
 "Plugin 'HTML-AutoCloseTag'
 " Make tmux look like vim-airline (read README for extra instructions)
-"Plugin 'edkolev/tmuxline.vim'
+Plugin 'edkolev/tmuxline.vim'
 " All the other syntax plugins I use
 "Plugin 'ekalinin/Dockerfile.vim'
 "Plugin 'digitaltoad/vim-jade'
@@ -67,6 +67,8 @@ set showcmd
 set incsearch
 set hlsearch
 set tabstop=2
+set expandtab
+set shiftwidth=2
 
 syntax on
 
