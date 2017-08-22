@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="blinks"
+ZSH_THEME="cloud"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -50,11 +50,11 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Machine specific config
-. ~/dotfiles/localzshrc
+#. ~/dotfiles/localzshrc
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+# export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -85,7 +85,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 alias ll='ls -l'
 alias la='ls -a'
-
+alias ..="cd .."
 # git related stuff
 alias gs='git status'
 alias gl='git log'
@@ -114,7 +114,7 @@ alias venv='use_virtualenv'
 alias redshift="ssh hive@hive001"
 alias reload="source ~/.zshrc"
 
-export PATH=~/bin:$PATH
+# export PATH=~/bin:$PATH
 
 # Don't share history between zshsessions
 setopt append_history no_inc_append_history no_share_history
@@ -124,3 +124,4 @@ set -g update-environment "SSH_ASKPASS SSH_AUTH_SOCK SSH_AGENT_PID SSH_CONNECTIO
 export PYTHONPATH=~/bin:$PYTHONPATH
 
 export MAVEN_OPTS="-Xmx512m" 
+export PATH="/usr/local/bin:$PATH"
