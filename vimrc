@@ -70,6 +70,8 @@ set hlsearch
 set tabstop=2
 set expandtab
 set shiftwidth=2
+set ignorecase
+set smartcase
 
 syntax on
 
@@ -154,5 +156,6 @@ augroup mydelimitMate
   au FileType tex let b:delimitMate_matchpairs = "(:),[:],{:},`:'"
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
+
 
 
